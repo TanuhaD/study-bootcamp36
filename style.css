@@ -1,0 +1,45 @@
+:root{
+    --bcg-color:#E5E5E5;
+    --dark-color:#323232;
+    --bcg-main-color:#F6F6F8;
+    --bcg-sek-color:#FFFFFF;
+    --accent-color:#4985FF;
+    --main-text-color:#999999;
+
+}
+body{
+    font-family:"Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px ;
+    color:var(--main-text-color);
+}
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+h1,h2,h3,h4,p {
+    margin:0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin:0 auto;
+    padding: 0px 15px;
+}
